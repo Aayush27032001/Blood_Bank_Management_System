@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .xyz{
+          margin-top: 30px;
+          background-image: url('{% static "image/homepage.jpg" %}');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+      
+</head>
+
+
+<body>
+  {% include "blood/navbar.html" %}
+<br>
+<section id="section-jumbotron" style="margin-top: -90px; margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+    <div class="container text-center">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     
+      
+      <br><br><br><br>
+      
+    </div>  
+  </section>
+
+
+  <div class="jumbotron" style="padding-top:25px; padding-bottom:10px ;margin-top: -70px;margin-bottom: -100px;">
+
+    <p style="font-size:50px" class="lead text-center">“यदि करनी हो जन सेवा,<br>रक्त-दान ही है उत्तम सेवा”
+      </p>
+    
+    
+  </div>
+</body>
+
+</html>
